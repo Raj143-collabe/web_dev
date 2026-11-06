@@ -1,0 +1,73 @@
+:root {
+    --primary-color: #346844;
+    --secondary-color: #83ab00;
+    --background-color: #f8fafc;
+    --surface-color: #d49d9d;
+    --text-color: #09bcaa;
+    --muted-color: #6b98d6;
+
+    --font-family: Arial, sans-serif;
+
+    --font-size-small: 18px;
+    --font-size-medium: 20px;
+    --font-size-large: 26px;
+    --font-size-heading: 37px;
+
+    --spacing-small: 10px;
+    --spacing-medium: 18px;
+    --spacing-large: 34px;
+
+    --border-radius: 14px;
+}
+
+/* 2. Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: var(--spacing-large);
+    font-family: var(--font-family);
+    font-size: var(--font-size-medium);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+/* 3. Headings */
+h1 {
+    color: var(--secondary-color);
+    font-size: var(--font-size-heading);
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: var(--font-size-large);
+}
+
+/* 4. Paragraphs */
+p {
+    color: var(--muted-color);
+    font-size: var(--font-size-medium);
+}
+
+/* 5. Card Design */
+.card {
+    background-color: var(--surface-color);
+    padding: var(--spacing-large);
+    margin-bottom: var(--spacing-medium);
+    border-radius: var(--border-radius);
+}
+
+/* 6. Buttons */
+button {
+    background-color: var(--primary-color);
+    color: rgb(240, 174, 174);
+    padding: var(--spacing-small) var(--spacing-medium);
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-medium);
+    cursor: pointer;
+} 
