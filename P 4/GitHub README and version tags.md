@@ -22,4 +22,4 @@ git status
 ```
 
 ## Result
-Successfully updated project documentation and created the Git version tag `v1.0`.
+Successfully updated project documentation and created the Git version tag `v1.0`
