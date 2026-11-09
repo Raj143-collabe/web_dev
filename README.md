@@ -6,8 +6,6 @@ This repository is created as part of the **Web Development Lab** to understand 
 
 ### 2. Objectives
 
-The main objectives of this module are:
-
 - To understand terminal commands and project folder navigation.
 - To learn how to create and manage project directories and files.
 - To understand Git version control and its importance in software development.
